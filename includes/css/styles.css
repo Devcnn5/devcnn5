@@ -1,0 +1,117 @@
+/* Custom stylesheet for portfolio page */
+
+/* Intro section--- the jumbotron and carousel */
+#intro{
+  height:auto;
+  background: #000;
+  margin:60px 0 20px 0;
+  padding:20% 20% inherit;
+
+}
+
+.tabbable h4{
+  color:orange;
+}
+
+
+
+#slide1{
+  background: center center no-repeat;
+
+}
+#slide2{
+  background: center center no-repeat;
+
+}
+#slide3{
+  background:center center no-repeat;
+
+}
+
+/* Contact Info or the Callout     */
+#contact{
+  background: #000;
+
+}
+#contact h3{
+  color:orange;
+}
+
+/* Footer STYLES    */
+ .footer{
+   height: 80px;
+   background: #000;
+ }
+
+ /* Projects or the Panels */
+
+ #projects{
+   height:500px;
+   background: #000;
+   margin:20px 0 20px 0;
+
+ }
+ #projects h2{
+   color: orange;
+ }
+
+
+/*Body sectoin or the background image */
+body{
+  background-image:url("../../images/matrixBack.jpg");
+  background-size: cover;
+
+}
+
+
+/* MEdia Queries      */
+
+
+@media(max-width:480px){
+  #intro{
+    height:auto;
+
+  }
+  #projects{
+    height:auto;
+  }
+  .nav-tabs h4{
+    font-size:20px;
+
+  }
+  .nav-tabs li{
+    padding: 2px;
+}
+.panel{
+  height:auto;
+}
+#mainDiv{
+  padding: 0px;
+  margin: 0px;
+}
+#mycarousel{
+  height:500px;
+  }
+}
+
+
+
+@media(max-width:768px){
+  #intro{
+    height:auto;
+  }
+  #projects{
+    height:auto;
+  }
+  #mycarousel{
+    height:200px;
+
+  }
+
+  }
+
+
+}
+@media(min-width:1200px){
+
+}
